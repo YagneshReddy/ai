@@ -141,15 +141,7 @@ void solve(int b[8][8],bool cond)
           }
       }
 
-    if(cond)
-    {
-      for (int i = 0; i < 8; i++)
-      {
-          push(i+1,arr);
-      }
-      cond=false;
-    }
-    solve(b,cond);
+   
 }
 
 int main()
